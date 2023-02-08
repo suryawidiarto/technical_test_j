@@ -1,0 +1,17 @@
+----------Sebrang-----------		------------Awal------------
+										A, Tas_A, B, C, Tas_C, D
+Tas_A, Tas_C, B 		 <--			A, C, D
+Tas_A, Tas_C						--> B, A, C, D
+Tas_A, Tas_C, D, B		 <--			A, C
+Tas_A, Tas_C, D						--> B, A, C
+Tas_A, Tas_C, A, D		 <--			B, C
+Tas_A, Tas_C, A						--> D, B, C
+Tas_A, Tas_C, A, D, B	 <--			C
+Tas_A, Tas_C, A, D					--> B, C
+Tas_A, Tas_C, A, C, D    <--			B
+Tas_A, Tas_C, A, C					--> B, D
+Tas_A, Tas_C, A, C, B, D <--
+
+Note:
+<-- arah perahu ke kiri
+--> arah perahu ke kanan
